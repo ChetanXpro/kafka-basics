@@ -30,12 +30,20 @@ To get started with the project, follow these steps:
    ```bash
    git clone https://github.com/your-username/kafka-basic-functionality.git
 
+## Admin
+- The `admin.js` script is responsible for creating topics and partitions for those topics. The script uses the Kafka admin client to perform administrative tasks. It's an essential step to set up the topics before running consumers and producers.
+  bash``` node admin.js```
+
+To execute the admin script:
+
 ## Setting Up Consumers
 
 - Run a consumer and specify a consumer group.
 ``` node consumer.js group-1```
 
 ## Producing Data
+
+- Run the producer to send data to a Kafka topic.
 ```
 node producer.js <name> <location>
 
