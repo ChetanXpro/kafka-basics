@@ -7,6 +7,6 @@ This project demonstrates the basic functionality of Apache Kafka, a distributed
 
 - Start Zookeper Container and expose PORT 2181.
 
-  ```docker run -p 2181:2181 zookeeper```
+  bash```docker run -p 2181:2181 zookeeper
 
 
