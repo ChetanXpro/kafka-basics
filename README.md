@@ -28,7 +28,7 @@ To get started with the project, follow these steps:
 2. **Clone the Repository:** Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your-username/kafka-basic-functionality.git
+   git clone https://github.com/ChetanXpro/kafka-basics.git
 
 ## Admin
 - The `admin.js` script is responsible for creating topics and partitions for those topics. The script uses the Kafka admin client to perform administrative tasks. It's an essential step to set up the topics before running consumers and producers.
