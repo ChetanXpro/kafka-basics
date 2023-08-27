@@ -32,14 +32,15 @@ To get started with the project, follow these steps:
 
 ## Admin
 - The `admin.js` script is responsible for creating topics and partitions for those topics. The script uses the Kafka admin client to perform administrative tasks. It's an essential step to set up the topics before running consumers and producers.
-  bash``` node admin.js```
+- To execute the admin script:
+- ``` node admin.js```
 
-To execute the admin script:
+
 
 ## Setting Up Consumers
 
 - Run a consumer and specify a consumer group.
-``` node consumer.js group-1```
+- ``` node consumer.js group-1```
 
 ## Producing Data
 
