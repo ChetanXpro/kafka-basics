@@ -16,5 +16,18 @@ docker run -p 9092:9092 \
 -e KAFKA_ZOOKEEPER_CONNECT=<PRIVATE_IP>:2181 \
 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://<PRIVATE_IP>:9092 \
 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 \
-confluentinc/cp-kafka ```
+confluentinc/cp-kafka
+```
+
+## Getting Started
+
+To get started with the project, follow these steps:
+
+1. **Installation:** Make sure you have Node.js and Kafka installed on your machine. If not, refer to the official documentation for installation instructions.
+
+2. **Clone the Repository:** Clone this repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/your-username/kafka-basic-functionality.git
+
 
