@@ -30,6 +30,15 @@ To get started with the project, follow these steps:
    ```bash
    git clone https://github.com/your-username/kafka-basic-functionality.git
 
-3. Run a consumer and specify a consumer group
+## Setting Up Consumers
+
+- Run a consumer and specify a consumer group.
 ``` node consumer.js group-1```
+
+## Producing Data
+```
+node producer.js <name> <location>
+
+EXAMPLE: node producer.js chetan delhi
+```
 
